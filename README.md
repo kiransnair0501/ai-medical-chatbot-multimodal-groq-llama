@@ -58,7 +58,7 @@ This app uses **Groq's API** for multimodal inference.
 
 ---
 
-##🛠 Installation & Setup
+## 🛠 Installation & Setup
 
 ### 1. Clone the repository
 git clone https://github.com/k1ransnair/ai-medical-chatbot-multimodal-groq-llama.git
@@ -68,11 +68,11 @@ cd ai-medical-chatbot-multimodal-groq-llama
 python -m venv .venv
 .venv\Scripts\activate
 
-## #3. Install dependencies
+### 3. Install dependencies
 pip install -r requirements.txt
 
 ### 4. Add your Groq API key
-#    (create .env with GROQ_API_KEY=your_key or export as env var)
+(create .env with GROQ_API_KEY=your_key or export as env var)
 
 ### 5. Run the application
 uvicorn main:app --reload
