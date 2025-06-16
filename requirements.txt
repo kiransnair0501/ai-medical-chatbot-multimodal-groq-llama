@@ -1,0 +1,9 @@
+fastapi
+uvicorn
+jinja2
+requests
+python-dotenv
+pillow
+
+📦 Install dependencies:
+pip install -r requirements.txt
