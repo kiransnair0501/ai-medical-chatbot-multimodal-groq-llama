@@ -78,7 +78,8 @@ pip install -r requirements.txt
 uvicorn main:app --reload
 ### Open http://127.0.0.1:8000 in your browser
 
-##👥 Contributors
+## 👥 Contributors
+
 Kiran S Nair
 
 Kushal S
@@ -87,15 +88,15 @@ Asritha Y
 
 Prajwal V
 
-##📄 License
+## 📄 License
 This project is for academic and demonstration purposes only.
 Feel free to fork, improve, and contribute—just give credit where due!
 
-##📰 Citation
+## 📰 Citation
 Published in the International Journal of Research Publication and Reviews (IJRPR)
 May 2025 · Volume 6 · Issue 5 · pp. 1259–1263
 ISSN 2582‑7421
 
-##💬 Feedback
+## 💬 Feedback
 Have suggestions or found an issue?
 Open an issue or submit a pull request—contributions are welcome!
