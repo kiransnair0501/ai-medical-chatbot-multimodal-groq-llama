@@ -27,19 +27,21 @@ A powerful AI-driven medical assistant that processes **text and image-based que
 ---
 
 ## 📁 Directory Structure
+
+```
 ai-medical-chatbot-multimodal-groq-llama/
 ├── ai_medical_chatbot-main/
-│ ├── app.py # FastAPI routes
-│ ├── main.py # App entry point
-│ ├── utils.py # Utility functions
-│ ├── templates/
-│ │ └── index.html # Frontend layout
-│ └── test*.jpg/png # Sample medical images
-├── .env # API key file (git-ignored)
-├── .gitignore # Files to exclude from Git
-├── requirements.txt # Python dependencies
-└── README.md # Project overview
-
+│   ├── app.py              # FastAPI routes
+│   ├── main.py             # App entry point
+│   ├── utils.py            # Utility functions
+│   ├── templates/
+│   │   └── index.html      # Frontend layout
+│   └── test*.jpg/png       # Sample medical images
+├── .env                    # API key file (git-ignored)
+├── .gitignore              # Files to exclude from Git
+├── requirements.txt        # Python dependencies
+└── README.md               # Project overview
+```
 
 ---
 
@@ -58,45 +60,71 @@ This app uses **Groq's API** for multimodal inference.
 
 ---
 
-## 🛠 Installation & Setup
+## 🛠 Installation & Setup
 
 ### 1. Clone the repository
+
+```bash
 git clone https://github.com/k1ransnair/ai-medical-chatbot-multimodal-groq-llama.git
 cd ai-medical-chatbot-multimodal-groq-llama
+```
 
 ### 2. Create and activate a virtual environment (Windows example)
+
+```bash
 python -m venv .venv
 .venv\Scripts\activate
+```
 
 ### 3. Install dependencies
+
+```bash
 pip install -r requirements.txt
+```
 
 ### 4. Add your Groq API key
-(create .env with GROQ_API_KEY=your_key or export as env var)
+
+```bash
+# Create a file named `.env` in the root directory and add:
+GROQ_API_KEY=your_key_here
+```
+Or export as an environment variable.
 
 ### 5. Run the application
+
+```bash
 uvicorn main:app --reload
-### Open http://127.0.0.1:8000 in your browser
+```
+
+Open in your browser: [http://127.0.0.1:8000](http://127.0.0.1:8000)
+
+---
 
 ## 👥 Contributors
 
-Kiran S Nair
+- Kiran S Nair  
+- Kushal S  
+- Asritha Y  
+- Prajwal V  
 
-Kushal S
-
-Asritha Y
-
-Prajwal V
+---
 
 ## 📄 License
-This project is for academic and demonstration purposes only.
+
+This project is for academic and demonstration purposes only.  
 Feel free to fork, improve, and contribute—just give credit where due!
 
+---
+
 ## 📰 Citation
-Published in the International Journal of Research Publication and Reviews (IJRPR)
-May 2025 · Volume 6 · Issue 5 · pp. 1259–1263
-ISSN 2582‑7421
+
+Published in the **International Journal of Research Publication and Reviews (IJRPR)**  
+**May 2025 · Volume 6 · Issue 5 · pp. 1259–1263**  
+**ISSN 2582‑7421**
+
+---
 
 ## 💬 Feedback
-Have suggestions or found an issue?
+
+Have suggestions or found an issue?  
 Open an issue or submit a pull request—contributions are welcome!
